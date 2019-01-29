@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import <HXJMediaPlayer/HXJPlayerView.h>
 
-@interface ViewController ()
+@interface ViewController () <HXJPlayerViewDelegate>
 
 @end
 
@@ -25,12 +25,15 @@
     
     NSURL *url = [NSURL URLWithString:@"https://file.mayiangel.com/videoProjectPath/015.mp4"];
     HXJPlayerView *playerView = [[HXJPlayerView alloc]initWithUrl:url];
-    
+    playerView.delegate = self ;
     playerView.frame = CGRectMake(0, 10, 375, 400);
     playerView.title = @"test";
     
     [view addSubview:playerView];
 }
 
+- (BOOL)isShouldAutoPlayWhenReadyToPlay {
+    return YES;
+}
 
 @end

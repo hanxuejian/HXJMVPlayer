@@ -47,6 +47,8 @@
 
 @property (nonatomic, assign, readwrite) HXJPlayerStatus status;
 
+@property (nonatomic, copy, readwrite) NSURL *url;
+
 @end
 
 @implementation HXJPlayerView
@@ -294,6 +296,7 @@
 }
 
 - (void)setTitle:(NSString *)title {
+    _title = title;
     self.playerControlView.title = title;
 }
 

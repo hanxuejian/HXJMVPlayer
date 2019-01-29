@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		339B70CD21FEECD500B88514 /* libHXJMediaPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A1115921EEFE4C008661CD /* libHXJMediaPlayer.a */; };
 		339B70CE21FEED7100B88514 /* HXJPlayerView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 33A1116221EF00E1008661CD /* HXJPlayerView.h */; };
 		339B70DF21FF403900B88514 /* UIView+HXJKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B70DE21FF403900B88514 /* UIView+HXJKeyBoard.m */; };
 		339C031922001F6C006A3E4F /* resources.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 339C031822001E71006A3E4F /* resources.bundle */; };
 		339C031A220020D9006A3E4F /* resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 339C031822001E71006A3E4F /* resources.bundle */; };
+		339C031B22004483006A3E4F /* libHXJMediaPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A1115921EEFE4C008661CD /* libHXJMediaPlayer.a */; };
+		339C031C22004503006A3E4F /* UIView+HXJKeyBoard.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 339B70DD21FF403900B88514 /* UIView+HXJKeyBoard.h */; };
+		339C031D2200450A006A3E4F /* HXJMetaMacros.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 339B70E021FF4B1200B88514 /* HXJMetaMacros.h */; };
+		339C031E2200467D006A3E4F /* HXJPlayerControlView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 33A1116D21EF307A008661CD /* HXJPlayerControlView.h */; };
 		33A1114121EEFC45008661CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A1114021EEFC45008661CD /* AppDelegate.m */; };
 		33A1114421EEFC45008661CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A1114321EEFC45008661CD /* ViewController.m */; };
 		33A1114721EEFC45008661CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A1114521EEFC45008661CD /* Main.storyboard */; };
@@ -29,6 +32,9 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				339C031E2200467D006A3E4F /* HXJPlayerControlView.h in CopyFiles */,
+				339C031D2200450A006A3E4F /* HXJMetaMacros.h in CopyFiles */,
+				339C031C22004503006A3E4F /* UIView+HXJKeyBoard.h in CopyFiles */,
 				339C031922001F6C006A3E4F /* resources.bundle in CopyFiles */,
 				339B70CE21FEED7100B88514 /* HXJPlayerView.h in CopyFiles */,
 			);
@@ -41,6 +47,8 @@
 		339B70DE21FF403900B88514 /* UIView+HXJKeyBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+HXJKeyBoard.m"; sourceTree = "<group>"; };
 		339B70E021FF4B1200B88514 /* HXJMetaMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXJMetaMacros.h; sourceTree = "<group>"; };
 		339C031822001E71006A3E4F /* resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resources.bundle; sourceTree = "<group>"; };
+		339C03252200620A006A3E4F /* updateBundle.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = updateBundle.sh; sourceTree = "<group>"; };
+		339C032622006222006A3E4F /* updateLib.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = updateLib.sh; sourceTree = "<group>"; };
 		33A1113C21EEFC45008661CD /* HXJMVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXJMVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A1113F21EEFC45008661CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33A1114021EEFC45008661CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				339B70CD21FEECD500B88514 /* libHXJMediaPlayer.a in Frameworks */,
+				339C031B22004483006A3E4F /* libHXJMediaPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,11 +92,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		339C0322220061E1006A3E4F /* script */ = {
+			isa = PBXGroup;
+			children = (
+				339C03252200620A006A3E4F /* updateBundle.sh */,
+				339C032622006222006A3E4F /* updateLib.sh */,
+			);
+			path = script;
+			sourceTree = "<group>";
+		};
+		339C032B2200706D006A3E4F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
 		33A1113321EEFC45008661CD = {
 			isa = PBXGroup;
 			children = (
 				33A1113E21EEFC45008661CD /* HXJMVPlayer */,
 				33A1115A21EEFE4D008661CD /* HXJMediaPlayer */,
+				339C0322220061E1006A3E4F /* script */,
+				339C032B2200706D006A3E4F /* lib */,
 				33A1113D21EEFC45008661CD /* Products */,
 				339B70CC21FEECD500B88514 /* Frameworks */,
 			);
@@ -161,6 +187,7 @@
 				33A1115521EEFE4C008661CD /* Sources */,
 				33A1115621EEFE4C008661CD /* Frameworks */,
 				33A1115721EEFE4C008661CD /* CopyFiles */,
+				339C032822006296006A3E4F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -220,6 +247,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		339C032822006296006A3E4F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/script/updateLib.sh",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n\"${SRCROOT}/script/updateLib.sh\" \"lib\"\n\n\"${SRCROOT}/script/updateBundle.sh\" \"lib\"\n\nexit 0\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		33A1113821EEFC45008661CD /* Sources */ = {
@@ -387,6 +435,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = test.HXJMVPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -405,6 +454,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = test.HXJMVPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
