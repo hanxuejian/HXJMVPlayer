@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		339B70CD21FEECD500B88514 /* libHXJMediaPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A1115921EEFE4C008661CD /* libHXJMediaPlayer.a */; };
+		339B70CE21FEED7100B88514 /* HXJPlayerView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 33A1116221EF00E1008661CD /* HXJPlayerView.h */; };
+		339B70DF21FF403900B88514 /* UIView+HXJKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 339B70DE21FF403900B88514 /* UIView+HXJKeyBoard.m */; };
+		339C031922001F6C006A3E4F /* resources.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 339C031822001E71006A3E4F /* resources.bundle */; };
+		339C031A220020D9006A3E4F /* resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 339C031822001E71006A3E4F /* resources.bundle */; };
+		33A1114121EEFC45008661CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A1114021EEFC45008661CD /* AppDelegate.m */; };
+		33A1114421EEFC45008661CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A1114321EEFC45008661CD /* ViewController.m */; };
+		33A1114721EEFC45008661CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A1114521EEFC45008661CD /* Main.storyboard */; };
+		33A1114921EEFC46008661CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A1114821EEFC46008661CD /* Assets.xcassets */; };
+		33A1114C21EEFC46008661CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A1114A21EEFC46008661CD /* LaunchScreen.storyboard */; };
+		33A1114F21EEFC46008661CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A1114E21EEFC46008661CD /* main.m */; };
+		33A1116421EF00E1008661CD /* HXJPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A1116321EF00E1008661CD /* HXJPlayerView.m */; };
+		33A1116F21EF307A008661CD /* HXJPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A1116E21EF307A008661CD /* HXJPlayerControlView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		33A1115721EEFE4C008661CD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				339C031922001F6C006A3E4F /* resources.bundle in CopyFiles */,
+				339B70CE21FEED7100B88514 /* HXJPlayerView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		339B70DD21FF403900B88514 /* UIView+HXJKeyBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+HXJKeyBoard.h"; sourceTree = "<group>"; };
+		339B70DE21FF403900B88514 /* UIView+HXJKeyBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+HXJKeyBoard.m"; sourceTree = "<group>"; };
+		339B70E021FF4B1200B88514 /* HXJMetaMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXJMetaMacros.h; sourceTree = "<group>"; };
+		339C031822001E71006A3E4F /* resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resources.bundle; sourceTree = "<group>"; };
+		33A1113C21EEFC45008661CD /* HXJMVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXJMVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A1113F21EEFC45008661CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33A1114021EEFC45008661CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33A1114221EEFC45008661CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33A1114321EEFC45008661CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33A1114621EEFC45008661CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33A1114821EEFC46008661CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33A1114B21EEFC46008661CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33A1114D21EEFC46008661CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A1114E21EEFC46008661CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33A1115921EEFE4C008661CD /* libHXJMediaPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHXJMediaPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A1116221EF00E1008661CD /* HXJPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXJPlayerView.h; sourceTree = "<group>"; };
+		33A1116321EF00E1008661CD /* HXJPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXJPlayerView.m; sourceTree = "<group>"; };
+		33A1116D21EF307A008661CD /* HXJPlayerControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXJPlayerControlView.h; sourceTree = "<group>"; };
+		33A1116E21EF307A008661CD /* HXJPlayerControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXJPlayerControlView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33A1113921EEFC45008661CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339B70CD21FEECD500B88514 /* libHXJMediaPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A1115621EEFE4C008661CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		339B70CC21FEECD500B88514 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33A1113321EEFC45008661CD = {
+			isa = PBXGroup;
+			children = (
+				33A1113E21EEFC45008661CD /* HXJMVPlayer */,
+				33A1115A21EEFE4D008661CD /* HXJMediaPlayer */,
+				33A1113D21EEFC45008661CD /* Products */,
+				339B70CC21FEECD500B88514 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		33A1113D21EEFC45008661CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33A1113C21EEFC45008661CD /* HXJMVPlayer.app */,
+				33A1115921EEFE4C008661CD /* libHXJMediaPlayer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33A1113E21EEFC45008661CD /* HXJMVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				33A1113F21EEFC45008661CD /* AppDelegate.h */,
+				33A1114021EEFC45008661CD /* AppDelegate.m */,
+				33A1114221EEFC45008661CD /* ViewController.h */,
+				33A1114321EEFC45008661CD /* ViewController.m */,
+				33A1114521EEFC45008661CD /* Main.storyboard */,
+				33A1114821EEFC46008661CD /* Assets.xcassets */,
+				33A1114A21EEFC46008661CD /* LaunchScreen.storyboard */,
+				33A1114D21EEFC46008661CD /* Info.plist */,
+				33A1114E21EEFC46008661CD /* main.m */,
+			);
+			path = HXJMVPlayer;
+			sourceTree = "<group>";
+		};
+		33A1115A21EEFE4D008661CD /* HXJMediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				33A1116221EF00E1008661CD /* HXJPlayerView.h */,
+				33A1116321EF00E1008661CD /* HXJPlayerView.m */,
+				33A1116D21EF307A008661CD /* HXJPlayerControlView.h */,
+				33A1116E21EF307A008661CD /* HXJPlayerControlView.m */,
+				339B70DD21FF403900B88514 /* UIView+HXJKeyBoard.h */,
+				339B70DE21FF403900B88514 /* UIView+HXJKeyBoard.m */,
+				339B70E021FF4B1200B88514 /* HXJMetaMacros.h */,
+				339C031822001E71006A3E4F /* resources.bundle */,
+			);
+			path = HXJMediaPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33A1113B21EEFC45008661CD /* HXJMVPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A1115221EEFC46008661CD /* Build configuration list for PBXNativeTarget "HXJMVPlayer" */;
+			buildPhases = (
+				33A1113821EEFC45008661CD /* Sources */,
+				33A1113921EEFC45008661CD /* Frameworks */,
+				33A1113A21EEFC45008661CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXJMVPlayer;
+			productName = HXJMVPlayer;
+			productReference = 33A1113C21EEFC45008661CD /* HXJMVPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33A1115821EEFE4C008661CD /* HXJMediaPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A1115F21EEFE4D008661CD /* Build configuration list for PBXNativeTarget "HXJMediaPlayer" */;
+			buildPhases = (
+				33A1115521EEFE4C008661CD /* Sources */,
+				33A1115621EEFE4C008661CD /* Frameworks */,
+				33A1115721EEFE4C008661CD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXJMediaPlayer;
+			productName = HXJMediaPlayer;
+			productReference = 33A1115921EEFE4C008661CD /* libHXJMediaPlayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33A1113421EEFC45008661CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = han;
+				TargetAttributes = {
+					33A1113B21EEFC45008661CD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					33A1115821EEFE4C008661CD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 33A1113721EEFC45008661CD /* Build configuration list for PBXProject "HXJMVPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33A1113321EEFC45008661CD;
+			productRefGroup = 33A1113D21EEFC45008661CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33A1113B21EEFC45008661CD /* HXJMVPlayer */,
+				33A1115821EEFE4C008661CD /* HXJMediaPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33A1113A21EEFC45008661CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A1114C21EEFC46008661CD /* LaunchScreen.storyboard in Resources */,
+				33A1114921EEFC46008661CD /* Assets.xcassets in Resources */,
+				33A1114721EEFC45008661CD /* Main.storyboard in Resources */,
+				339C031A220020D9006A3E4F /* resources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33A1113821EEFC45008661CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A1114421EEFC45008661CD /* ViewController.m in Sources */,
+				33A1114F21EEFC46008661CD /* main.m in Sources */,
+				33A1114121EEFC45008661CD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A1115521EEFE4C008661CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A1116F21EF307A008661CD /* HXJPlayerControlView.m in Sources */,
+				33A1116421EF00E1008661CD /* HXJPlayerView.m in Sources */,
+				339B70DF21FF403900B88514 /* UIView+HXJKeyBoard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33A1114521EEFC45008661CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A1114621EEFC45008661CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33A1114A21EEFC46008661CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A1114B21EEFC46008661CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33A1115021EEFC46008661CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33A1115121EEFC46008661CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33A1115321EEFC46008661CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HXJMVPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.HXJMVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33A1115421EEFC46008661CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HXJMVPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.HXJMVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33A1116021EEFE4D008661CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NNQ74D6ZA;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33A1116121EEFE4D008661CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7NNQ74D6ZA;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33A1113721EEFC45008661CD /* Build configuration list for PBXProject "HXJMVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A1115021EEFC46008661CD /* Debug */,
+				33A1115121EEFC46008661CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A1115221EEFC46008661CD /* Build configuration list for PBXNativeTarget "HXJMVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A1115321EEFC46008661CD /* Debug */,
+				33A1115421EEFC46008661CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A1115F21EEFE4D008661CD /* Build configuration list for PBXNativeTarget "HXJMediaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A1116021EEFE4D008661CD /* Debug */,
+				33A1116121EEFE4D008661CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33A1113421EEFC45008661CD /* Project object */;
+}
